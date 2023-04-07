@@ -1,17 +1,17 @@
 # ShiftOrAlgorithm
 
-Nasıl Çalışır?
+##Nasıl Çalışır?
 Öncelikle kesinlikle txt dosyası ile python dosyası aynı klasör ya dizin içinde olmalıdır. Bazen VSCode txt dosyasını okumuyor bu durumda da klasör ile açıp
 klasör içinden python dosyasını açtığımda bir sorun yaşamadım. Programın ne yaptığı yorum satırlarında yazılı olup çalıştırıldğında terminalde direkt sonuçlar yazmaktadır.
 
 
-Açıklaması:
+##Açıklaması:
 
 Shift-Or algoritması, bir örüntüyü bir metinde aramak için kullanılan bir bit maskeleme algoritmasıdır. Algoritma, öntanımlı maske oluşturma, bit durumu güncelleme ve eşleşme durumunu kontrol etme adımlarını içerir.
 
 Örneğin, bu program bir metin dosyası olan "alice_in_wonderland.txt" dosyasını açar ve içindeki kelime sayısını hesaplamak için Shift-Or algoritmasını kullanır. Algoritma, kelime örüntülerini maskeleyerek, metindeki her karakteri örüntü ile karşılaştırır ve eşleşme durumunu takip eder.
 
-Değişkenler:
+##Değişkenler:
 
 Programda tanımlanan değişkenler şunlardır:
 
@@ -32,7 +32,7 @@ state: bit durumunu takip eden bir değişken. Bu değişken, Shift-Or algoritma
 count1, count2, count3, count4, count5: her kelimenin sayısını tutan değişkenler. Bu değişkenler, Shift-Or algoritması tarafından her kelimenin sayısını hesaplamak için kullanılır.
 
 
-Çalışma Analizi:
+##Çalışma Analizi:
 
 Programın çalışma zamanı analizi, algoritmanın en iyi, en kötü ve ortalama sınırlarını belirlemek için kullanılır. Shift-Or algoritması, örüntü uzunluğu m ve metin uzunluğu n için O(nm) çalışma zamanına sahiptir. En iyi durumda, algoritma O(m) çalışma zamanına sahip olabilir, yani örüntü bulunursa ilk karakterden başlayarak tek bir karakteri karşılaştırarak arama yapabilir. En kötü durumda, algoritma O(nm) çalışma zamanına sahip olabilir, yani örüntü metinde hiç bulunmazsa her karakter için tüm örüntüyü karşılaştırmak zorunda kalır. Ortalama durumda, algoritma O(n) çalışma zamanına sahiptir, yani örüntü metinde ortalama bir sayıda kez bulunursa.
 
