@@ -1,4 +1,10 @@
 # ShiftOrAlgorithm
+
+Nasıl Çalışır?
+Öncelikle kesinlikle txt dosyası ile python dosyası aynı klasör ya dizin içinde olmalıdır. Bazen VSCode txt dosyasını okumuyor bu durumda da klasör ile açıp
+klasör içinden python dosyasını açtığımda bir sorun yaşamadım. Programın ne yaptığı yorum satırlarında yazılı olup çalıştırıldğında terminalde direkt sonuçlar yazmaktadır.
+
+
 Açıklaması:
 
 Shift-Or algoritması, bir örüntüyü bir metinde aramak için kullanılan bir bit maskeleme algoritmasıdır. Algoritma, öntanımlı maske oluşturma, bit durumu güncelleme ve eşleşme durumunu kontrol etme adımlarını içerir.
